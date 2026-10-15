@@ -13,7 +13,7 @@ export default async function HalamanKatalog() {
     const { data, error } = await supabase
       .from("produk")
       .select("*")
-      .order("id", { ascending: true });
+      .order("id", { ascending: false });
 
     if (error) {
       errorPesan = error.message;
