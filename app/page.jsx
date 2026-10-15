@@ -7,7 +7,7 @@ import { toko } from "@/lib/toko";
 
 export const dynamic = "force-dynamic";
 
-const PER_HALAMAN = 9;
+const PER_HALAMAN = 6;
 
 export default async function HalamanKatalog({ searchParams }) {
   const { q = "", kategori = "", halaman: halamanParam = "1" } = await searchParams;
