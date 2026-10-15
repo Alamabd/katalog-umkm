@@ -1,6 +1,6 @@
 {
-  "name": "Katalog UMKM",
-  "short_name": "Katalog",
+  "name": "Toko Menyala",
+  "short_name": "Toko Menyala ",
   "description": "Katalog produk UMKM — lihat produk dan pesan via WhatsApp.",
   "start_url": "/",
   "display": "standalone",
